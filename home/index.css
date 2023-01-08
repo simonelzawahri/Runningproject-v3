@@ -1,0 +1,184 @@
+body {
+    padding: 0%;
+    margin: 0%;
+    font-family: 'Raleway', sans-serif;
+}
+
+hr {
+    border: solid #7F4901;
+}
+
+header {
+    /* background-color: #7F4901; */
+    margin: 0;
+    padding: 0;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header div {
+    width: auto;
+    height: 5em;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+
+header .logo {
+    width: 4em;
+    height: 4em;
+    float: left;
+    object-fit: cover;
+
+}
+
+header .title {
+    color: #7F4901;
+    margin-left: .2em;
+    font-size: 2.3em;
+    /* color: white; */
+}
+
+header #time{
+    font-size: 1.9em;
+    color: #7F4901;
+    margin-left: .2em;
+}
+
+
+
+
+
+
+
+
+.nav {
+    width: 170px;
+    height: auto;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: baseline;
+    align-items: space-between;
+
+    position: fixed;
+}
+
+.nav a {
+    padding: 10px;
+    color: #7F4901;
+    text-decoration: none;
+}
+
+.nav a:hover {
+    background-color: #7F4901;
+    color: white;
+    cursor: pointer;
+    /* transition: .15s all linear; */
+}
+
+
+
+
+
+
+
+
+
+
+.main2 {
+    background-color: aquamarine;
+    width: 180px;
+    display: inline-flex;
+}
+
+.main {
+    background-color: rgb(234, 255, 195);
+    width: 60%;
+    max-width: 90%;
+    min-height: 300px;
+
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.main section {
+    padding: 20px;
+}
+
+.main section .home {
+    width: 2px;
+}
+
+.main section h4,h3 {
+    color: #7F4901;
+}
+.main section p,ul {
+    color: rgb(0, 0, 0);
+}
+
+
+
+
+
+
+
+
+
+@media (max-width: 475px) {
+
+    .main {
+        background-color: rgb(255, 250, 174);
+        display: block;
+        display: flex;
+        width: max-content;
+    }
+
+    .nav {
+        position: static;
+    }
+
+
+}
+
+
+
+
+
+
+
+
+
+footer {
+    padding: 10px;
+    background-color: #7F4901;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+footer a {
+    width: max-content;
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+}
+
+footer p {
+    color: #613701;
+}
+
+footer a:hover {
+    background-color: white;
+    color: #7F4901;
+    transition: .15s all linear;
+}
